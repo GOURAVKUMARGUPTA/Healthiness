@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #060606;
+  flex-direction: column;
+}
+
+/* navbar */
+.menu {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logotext {
+  position: relative;
+  display: block;
+  width: 20%;
+  text-align: center;
+  font-size: 55px;
+  color: #F36B39;
+  text-decoration: none;
+  font-weight: bold;
+  top: 23px;
+  margin-right: 550px;
+  padding-left: 5px;
+}
+
+.menu ul {
+  position: fixed;
+  display: flex;
+  width: 95%;
+  height: 100px;
+  Line-height: 55px;
+  background: rgb(0, 128, 128, 0.8);
+  list-style-type: none;
+  margin: 15px auto;
+  border-radius: 25px;
+  z-index: 1;
+  left:50px;
+}
+
+.menu ul li {
+  width: 10%;
+}
+
+.menu ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  top: 23px;
+}
+
+.menu ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  Left: 0;
+  width: 0%;
+  height: 6px;
+  background: #F5A61B;
+  transition: all 2s;
+}
+
+.menu ul li a:hover::before {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.menu ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 6px;
+  background: #F5A61B;
+  transition: all 2s;
+}
+
+.menu ul li a:hover::after {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+button, input, select, textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  width: 90%;
+  max-width: 300px;
+  background-color: #1b2028;
+  border-radius: 16px;
+  position: relative;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  text-align: center;
+  color: #f1f3f3;
+  background-image: linear-gradient(135deg, rgba(117, 46, 124, 0.35), rgba(115, 74, 88, 0.1)15%, #1b2028 20%, #1b2028 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sens-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  background: #eaeff4;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0 0 5px #999999;
+  top: 45px;
+}
+
+.login .col-left,
+.login .col-right {
+  padding: 30px;
+  display: flex;
+}
+
+.login .col-left {
+  width: 60%;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background: #2aa15f;
+}
+
+.login .col-right {
+  padding: 60px 30px;
+  width: 50%;
+  margin-left: -10%;
+}
+
+.login .login-text {
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+}
+
+.login .login-text h2 {
+  margin: 0 0 15px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login .login-text p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.login .login-text .btn {
+  display: inline-block;
+  font-family: poppins;
+  padding: 7px 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  transition: .3s;
+}
+
+.login .login-text .btn:hover {
+  color: #2aa15f;
+  box-shadow: inset 150px 0 0 0 #ffffff;
+}
+
+.login .login-form {
+  position: relative;
+  width: 100%;
+}
+
+login .login-form {
+  position: relative;
+  width: 100%;
+}
+
+.login .login-form h2 {
+  margin: 0 0 15px 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.login .login-form p {
+  margin: 0 0 10px 0;
+  text-align: left;
+  color: #666666;
+  font-size: 15px;
+}
+
+.login .login-form p:last-child {
+  margin: 0;
+  padding-top: 3px;
+}
+
+.login .login-form p a {
+  color: #2aa15f;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login .login-form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+  letter-spacing: .5px;
+}
+
+.login .login-form p:last-child label {
+  width: 60%;
+  float: left;
+}
+
+.login .login-form label span {
+  color: #ff574e;
+  padding-left: 2px;
+}
+
+.login .login-form input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+}
+
+.login .login-form input:focus {
+  border-color: #ff574e;
+}
+
+.login .login-form button,
+.login .login-form input[type=submit] {
+  display: inline-block;
+  width: 100%;
+  margin-top: 5px;
+  color: #2aa15f;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #2aa15f;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 0 #2aa15f;
+  transition: .3s;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer {
+  background-color: #FAF9F6;
+  width: 1600px;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .box-container .box {
+  width: 300px;
+  margin: 1px 100px;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2rem;
+  color: #000000;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 1rem;
+  color: #808080;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.footer .box-container .box a i {
+  padding-right: .5rem;
+  color: #02A8A8;
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footer .credit {
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #808080;
+  border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.footer .credit span {
+  color: #02A8A8;
+}
